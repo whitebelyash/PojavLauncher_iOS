@@ -102,7 +102,7 @@ bool init_checkForJailbreak() {
 
 void init_logDeviceAndVer(char *argument) {
     // PojavLauncher version
-    NSLog(@"[Pre-Init] PojavLauncher INIT!");
+    NSLog(@"[Pre-Init] MojoLauncher INIT!");
     NSLog(@"[Pre-Init] Version: %@-%s", NSBundle.mainBundle.infoDictionary[@"CFBundleShortVersionString"], CONFIG_TYPE);
     NSLog(@"[Pre-Init] Commit: %s (%s)", CONFIG_COMMIT, CONFIG_BRANCH);
     
@@ -248,7 +248,7 @@ void init_setupHomeDirectory() {
     
     BOOL isNotSandboxed = [@(getenv("HOME")).lastPathComponent isEqualToString:NSUserName()];
     homeDir = [NSString stringWithFormat:@"%s/Documents%@", getenv("HOME"),
-        isNotSandboxed ? @"/PojavLauncher":@""];
+        isNotSandboxed ? @"/MojoLauncher":@""];
 
     if (![fm fileExistsAtPath:homeDir] ) {
         [fm createDirectoryAtPath:homeDir withIntermediateDirectories:NO attributes:nil error:&homeError];
