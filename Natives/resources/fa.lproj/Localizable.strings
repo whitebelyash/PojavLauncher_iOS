@@ -123,9 +123,9 @@
 "preference.title.jitstreamer_server" = "آیپی سرور JitStreamer";
 "preference.detail.jitstreamer_server" = "به شما امکان می‌دهد به یک IP سرور سفارشی JitStreamer، مانند ورژن های خود میزبان، تغییر دهید. اگر از سرورهای پیش‌فرض JitStreamer استفاده می‌کنید، می‌توانید این گزینه را به حال خود رها کنید.";
 "preference.title.appicon" = "تنظیم نماد برنامه";
-"preference.detail.appicon" = "به شما امکان می دهد بین نمادهای مختلف صفحه اصلی برای PojavLauncher یکی را انتخاب کنید.";
-"preference.title.appicon-default" = "نور آشنا PojavLauncher";
-"preference.title.appicon-dark" = "تاریکی PojavLauncher آشنا";
+"preference.detail.appicon" = "به شما امکان می دهد بین نمادهای مختلف صفحه اصلی برای MojoLauncher یکی را انتخاب کنید.";
+"preference.title.appicon-default" = "نور آشنا MojoLauncher";
+"preference.title.appicon-dark" = "تاریکی MojoLauncher آشنا";
 "preference.title.hidden_sidebar" = "نوار کناری منوی اصلی را به طور پیش فرض مخفی کنید";
 
 "preference.title.reset_warnings" = "بازنشانی همه هشدارها";

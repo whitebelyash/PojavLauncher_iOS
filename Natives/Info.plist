@@ -9,9 +9,9 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
 	<key>CFBundleDisplayName</key>
-	<string>PojavLauncher</string>
+	<string>MojoLauncher</string>
 	<key>CFBundleExecutable</key>
-	<string>PojavLauncher</string>
+	<string>MojoLauncher</string>
 	<key>CFBundleIcons</key>
 	<dict>
 		<key>CFBundleAlternateIcons</key>
@@ -78,7 +78,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>PojavLauncher</string>
+	<string>MojoLauncher</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -92,7 +92,7 @@
 			<string>net.kdt.pojavlauncher.urlscheme</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>pojavlauncher</string>
+				<string>mojolauncher</string>
 			</array>
 		</dict>
 	</array>
@@ -126,9 +126,9 @@
 		<string>_altserver._tcp</string>
 	</array>
 	<key>NSLocalNetworkUsageDescription</key>
-	<string>PojavLauncher uses the local network to find and communicate with AltServer and LAN servers.</string>
+	<string>MojoLauncher uses the local network to find and communicate with AltServer and LAN servers.</string>
 	<key>NSMicrophoneUsageDescription</key>
-	<string>PojavLauncher uses the microphone to enable support for voice chat mods.</string>
+	<string>MojoLauncher uses the microphone to enable support for voice chat mods.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
