@@ -149,7 +149,6 @@ add_executable(PojavLauncher
   JavaGUIViewController.m
   LauncherMenuViewController.m
   LauncherNavigationController.m
-  LauncherNewsViewController.m
   LauncherPreferences.m
   LauncherPreferencesViewController.m
   LauncherPrefContCfgViewController.m
