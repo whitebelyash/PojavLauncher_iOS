@@ -87,7 +87,6 @@
             @"debug_show_layout_overlap": @NO
         }.mutableCopy;
         defaults[@"warnings"] = @{
-            @"local_warn": @YES,
             @"mem_warn": @YES,
             @"auto_ram_warn": @YES,
             @"limited_ram_warn": @YES
