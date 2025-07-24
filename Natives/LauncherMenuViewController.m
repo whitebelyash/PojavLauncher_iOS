@@ -4,7 +4,6 @@
 #import "ALTServerConnection.h"
 #import "LauncherNavigationController.h"
 #import "LauncherMenuViewController.h"
-#import "LauncherNewsViewController.h"
 #import "LauncherPreferences.h"
 #import "LauncherPreferencesViewController.h"
 #import "LauncherProfilesViewController.h"
@@ -60,7 +59,6 @@
     [titleView sizeToFit];
     
     self.options = @[
-        [LauncherMenuCustomItem vcClass:LauncherNewsViewController.class],
         [LauncherMenuCustomItem vcClass:LauncherProfilesViewController.class],
         [LauncherMenuCustomItem vcClass:LauncherPreferencesViewController.class],
     ].mutableCopy;

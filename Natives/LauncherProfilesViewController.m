@@ -20,7 +20,7 @@ typedef NS_ENUM(NSUInteger, LauncherProfilesTableSection) {
     kProfiles
 };
 
-@interface LauncherProfilesViewController () //<UIContextMenuInteractionDelegate>
+@interface LauncherProfilesViewController () <WKNavigationDelegate> //<UIContextMenuInteractionDelegate>
 
 @property(nonatomic) UIBarButtonItem *createButtonItem;
 @end
