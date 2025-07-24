@@ -275,7 +275,7 @@ java:
 jre: native
 	echo '[PojavLauncher v$(VERSION)] jre - start'
 	mkdir -p $(SOURCEDIR)/depends
-	cd $(SOURCEDIR)/depends; \
+	-cd $(SOURCEDIR)/depends; \
 	$(call METHOD_JAVA_UNPACK,8,'https://nightly.link/PojavLauncherTeam/android-openjdk-build-multiarch/workflows/build/buildjre8/jre8-ios-aarch64.zip'); \
 	$(call METHOD_JAVA_UNPACK,17,'https://nightly.link/PojavLauncherTeam/android-openjdk-build-multiarch/workflows/build/buildjre17-21/jre17-ios-aarch64.zip'); \
 	$(call METHOD_JAVA_UNPACK,21,'https://nightly.link/PojavLauncherTeam/android-openjdk-build-multiarch/workflows/build/buildjre17-21/jre21-ios-aarch64.zip'); \
